@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs"
+    Inherits="V6.masterpage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pysi Desenvolvimento</title>
+    <meta name="google-site-verification" content="O8ROoNmy3qVOO4ldp1MzGmE1Ml_nktV5pDX9Bn9ytrQ" />
+    <meta name="title" content="Pysi Desenvolvimento" />
+    <meta name="author" content="Pysi Desenvolvimento" />
+    <meta name="subject" content="Pysi Desenvolvimento" />
+    <meta name="language" content="pt-br" />
+    <meta name="keywords" content="pysi, websites, sites, portais, design, aplicativos, webdesign, apps, sistemas, online, offline" />
+    <meta name="description" content="Pysi Desenvolvimento - Design, sites e sistemas online e desktop para PC's e dispositivos móveis" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/estrutura.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/highslide.css" />
+    <script type="text/javascript" src="js/highslide-with-gallery.js"></script>
+    <script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script src="js/google-analitics.js" type="text/javascript"></script>
+    <script src="http://imasters.uol.com.br/crossbrowser/fonte.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#1, #2, #3").lavaLamp({
+                fx: "backout",
+                speed: 700,
+                click: function (event, menuItem) {
+                    return true;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="top">
+            <img src="imagens/logo.gif" title="Pysi Logo" alt="Pysi Logo" />
+        </div>
+        <div id="nav_menu">
+            <ul class="lavaLampNoImage" id="2">
+                <li class="current"><a href="Default.aspx">inicial</a></li>
+                <li class="li_2">-</li>
+                <li><a href="quemsomos.aspx">quem somos</a></li>
+                <li class="li_2">-</li>
+                <li><a href="fazemos.aspx">o que fazemos</a></li>
+                <li class="li_2">-</li>
+                <li><a href="portfolio.aspx">portfólio</a></li>
+                <li class="li_2">-</li>
+                <li><a href="faleconosco.aspx">fale conosco</a></li>
+            </ul>
+        </div>
+        <div id="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="footer">
+                <div class="contaier_footer">
+                    <a href="mailto:contato@pysi.com.br">contato@pysi.com.br</a> - (21) 2403-0779
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
