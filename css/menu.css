@@ -1,0 +1,75 @@
+<!-- /* $WEFT -- Created by: Juan (juan@pysi.com.br) -- */
+@font-face
+{
+    font-family: Euphemia;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../euphemia.ttf');
+}
+-- > .lavaLampNoImage
+{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    background-color: #34a5cc;
+    height: 95px;
+}
+.lavaLampNoImage li
+{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 27px;
+    font-family: Euphemia;
+    padding-left: 24px;
+    padding-left: 21px\9;
+}
+
+/* Google Chrome hack */
+body:nth-of-type(1) .lavaLampNoImage li
+{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 27px;
+    font-family: Euphemia;
+    padding-left: 20px;
+}
+/* Google Chrome hack */
+
+.li_2
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.lavaLampNoImage li.back
+{
+    background-color: #268fb3;
+    height: 95px;
+    z-index: 8;
+    position: absolute;
+}
+.lavaLampNoImage li a
+{
+    outline: none;
+    z-index: 10;
+    display: block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 27px;
+    font-family: Euphemia;
+    height: 100px;
+    padding-top: 30px;
+}
+
+
+.lavaLampNoImage li a:hover, .lavaLampNoImage li a:active, .lavaLampNoImage li a:visited
+{
+    border: none;
+}
+
