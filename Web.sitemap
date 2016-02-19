@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="http://www.pysi.com.br" title="Pysi Desenvolvimento"  description="">
+    <siteMapNode url="Default.aspx" title="Home"  description="Página principal" />
+    <siteMapNode url="portfolio.aspx" title="Nossos trabalhos" description="Nossos trabalhos mais recentes"/>
+    <siteMapNode url="blog.aspx" title="Pysi Blog" description="Notícias de tecnologia"/>
+    <siteMapNode url="parceiros.aspx" title="Parceiros"  description="Companheiros que nos ajudam a ajudar" />
+    <siteMapNode url="quemsomos.aspx" title="Quem somos"  description="Descrição da Pysi Desenvolvimento" />
+    <siteMapNode url="contato.aspx" title="Contato"  description="Dados de contato" />
+    <siteMapNode url="calculadora.aspx" title="Orçamento"  description="Faça seu orlamento sem compromisso" />
+    <siteMapNode url="mapasite.aspx" title="SiteMap"  description="Mapa do site, descrição das páginas" />
+  </siteMapNode>
+</siteMap>
